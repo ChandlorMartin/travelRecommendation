@@ -1,0 +1,65 @@
+/*navbar base styling*/
+.navbar{
+  background-color: rgb(35, 33, 33);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.navbar-logo-section, .navbar-options, .navbar-search-options{
+  list-style-type: none;
+  margin-left: 2%;
+}
+
+.navbar-logo-section li, .navbar-options li, .navbar-search-options li{
+  display: inline-block;
+}
+
+/*navbar-logo-section specific styling*/
+.navbar-logo-section li p{
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/*navbar-options specific styling*/
+.navbar-options li a{
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.navbar-options li a:hover{
+  text-decoration: underline;
+}
+
+/*navbar-search-option specific stylilng*/
+.navbar-search-options {
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 5px;
+  background: white;
+}
+
+.navbar-search-options li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-search-options input {
+  border-color: transparent;
+  outline: none;
+}

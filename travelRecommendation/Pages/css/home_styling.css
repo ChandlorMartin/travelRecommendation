@@ -1,0 +1,66 @@
+
+.home-info {
+    color: aliceblue;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-top: 10%;
+}
+
+#home-title{
+    list-style-type: none;
+    padding-left: 20%;
+}
+
+#home-title li{
+    text-align: left;
+    font-size: 48px;
+    font-style: bolder;
+}
+
+#home-description{
+    list-style-type: none;
+    margin-top: 25%;
+    margin-left: 10%;
+    inline-size: 500px;
+}
+
+#home-description li{
+    text-align: left;
+    font-size: 24px;
+}
+
+.recommendationsContainer {
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.recommendations {
+    list-style-type: none;
+}
+
+.recommendation {
+    margin: 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.recommendation ul{
+    list-style-type:none;
+}
+
+.location-image {
+    width: 500px;
+    height: 300px;
+}
+
+.location{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description{
+    inline-size: 500px;
+    font-size: 16px;
+}

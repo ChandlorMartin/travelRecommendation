@@ -1,0 +1,53 @@
+.title, .company-info-description, .team{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.317);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.title {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+.title p {
+    font-size: 48px;
+}
+
+.company-info-description {
+    width: fit-content;
+    margin-top: 2%;
+    margin-left:auto ;
+    margin-right:auto ;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.team{
+width: fit-content;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+display: flex;
+}
+
+.team ul {
+    display: inline;
+}
+
+.member {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.member-name {
+    font-size: 18px;
+}
+
+.member-position {
+    font-size: 12px;
+}

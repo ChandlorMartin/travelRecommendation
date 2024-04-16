@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Travelo</title>
+        <link rel="stylesheet" href="./css/base_styling.css">
+        <link rel="stylesheet" href="./css/navbar_styling.css">
+        <link rel="stylesheet" href="./css/home_styling.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="navbar-logo-section">
+                <li><p>Travelo</p></li>
+            </ul>
+            <ul class="navbar-options">
+                <li><a href="./travel_recommendation.html">Home</a></li>
+                <li><a href="./about_us.html">About us</a></li>
+                <li><a href="./contact_us.html">Contact us</a></li>
+            </ul>
+            <ul class="navbar-search-options">
+                <li><input type="text" id="searchBar" placeholder="Search recommendations" ></li>
+                <li><button type="submit" id="searchButton">Search</button></li>
+                <li><button type="submit" id="clearButton">Reset</button> </li>
+            </ul>
+        </nav>
+        <img class="background-image" src="../Assets/home_background.jpg"/>
+        <div class="home-info">
+            <ul id="home-title">
+                <li><p>TRAVEL</p></li>
+                <li><p>DREAM</p></li>
+                <li><p>LEARN</p></li>
+            </ul>
+            <ul id="home-description">
+                <li><p>Have you always wanted to travel somewhere new?
+                    Maybe there is a specific place that you have always wanted to visit? At Travelo, 
+                    we can make those dreams a reality.
+                </p></li>
+            </ul>            
+        </div>
+        <div class="recommendationsContainer">
+            <ul class="recommendations" id="recommendations">
+            </ul>
+        </div>
+        <script src="../travel_recommendation.js"></script>
+    </body>
+</html>
